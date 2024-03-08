@@ -34,9 +34,9 @@ Otro ejemplo es la multiplicación
 - $2\times(3\times4)=24$
 - $(2\times3)\times4=24$  
  
-Un ejemplo más es la opedración de _union_. Supongamos que tenemos tres subconjuntos de números naturales $A=$ {$1,2$}, $B=$ {$3, 4$} y $C=$ {$5, 6$}. La unión de conjuntos significa unir/juntar/combinar los conjuntos para obtener otro con todos los elementos combinados.
-- $A \cup$($B\cup C$) $=$ A union (B union C) = {$1,2$} $\cup$ ({$3,4$} $\cup${$5,6$})= {$1,2,3,4,5,6$}   
-- ($A\cup B$)$\cup C=$ (A union B) union C = ({$1,2$}$\cup${$3,4$}$\cup 5,6$) $=$ {$1,2,3,4,5,6,$}
+Un ejemplo más es la operación de _union_. Supongamos que tenemos tres subconjuntos de números naturales $A=$ {1,2}, $B=$ {3, 4} y $C=$ {5, 6}. La unión de conjuntos significa unir/juntar/combinar los conjuntos para obtener otro con todos los elementos combinados.
+- $A \cup$($B\cup C$) $=$ A union (B union C) $=$ \(\{1,2\} $\cup$ \{3,4\}\) $\cup$ \{5,6\} $=$ \{1,2,3,4,5,6\}
+- \($A \cup B$\) $\cup$ $C =$ (A union B) union C $=$ \(\{1,2\} $\cup$ \{3,4\}\) $\cup$ \{5,6\} $=$ \{1,2,3,4,5,6,\}
 - No importa como se asocien los subconjuntos, el resultado es el mismo.
 
 
@@ -45,7 +45,7 @@ Un monoide es un SEMIGRUPO (que a su vez es un MAGMA) y que tiene un elemento _i
 - Para la suma el elemento identidad es el número $0$, ya que si sumamos el $0$ con cualquier otro número, el resultado es el número en sí -> $0+1=1$
 - Para la multiplicación, cuál sería ese número que no altere el resultado?...  
 El número es el $1$ -> $1\times3=3$
-- Para la unión de conjuntos, el elemento identidad es el conjunto vacío {}, ya que por ejemplo {$1,2,3$}$\cup${}$=${$1,2,3$} 
+- Para la unión de conjuntos, el elemento identidad es el conjunto vacío {}, ya que por ejemplo \{1,2,3\} $\cup$ {} $=$ \{1,2,3\} 
 
 **GRUPO -> Todos los anteriores**  
 Un GRUPO  es todos los anteriores MAGMA -> SEMIGRUPO -> MONOIDE; pero además tiene una propiedad adicional que es el elemento _inverso_.  
@@ -61,7 +61,7 @@ $A+A^{-1}=0$ (recordemos que 0 es el elemento identidad de la suma). Es cierto e
 Esto se refiere básciamente a "El orden de los factores, no altera el producto" cuando hablamos de multiplicación O de "El orden de los sumandos, no altera la suma" cuando hablamos de suma.
 - $3\times 4 = 4 \times 3 = 12$
 - $3 + 4 = 4 + 3 = 7$
-- $A \cup B = B \cup A$ -> {$1,2$}$\cup${$3,4$} $=$ {$3,4$}$\cup${$1,2$} $=$ {$1,2,3,4$}
+- $A \cup B = B \cup A$ -> \{1,2\} $\cup$ \{3,4\} $=$ \{3,4\} $\cup$ \{1,2\} $=$ \{1,2,3,4\}
 
 Eso es todo, en resúmen yendo de lo genera a lo particular:
 MAGMA -> SEMIGRUPO -> MONOIDE -> GRUPO -> GRUPO ABELIANO
