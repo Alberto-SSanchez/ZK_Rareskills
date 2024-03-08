@@ -2,7 +2,7 @@
 
 ## Primero entendamos qué es un "conjunto" 
 
-De una mseanera sencilla e informal, podríamos decir que un conjunto es un grupo de elementos que tienen algo en común. Por ejemplo: 
+De una manera sencilla e informal, podríamos decir que un conjunto es un grupo de elementos que tienen algo en común. Por ejemplo: 
 
 * Los alumnos de un grupo escolar -> {Pedro, Luis, MarÍa, Juan}. 
 * Las letras del abecedario -> {a,b,c,d,…}. 
